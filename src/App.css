@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.todos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.todo {
+  flex: 1 1 120px;
+  min-height: 120px;
+  border: 2px solid #282c34;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.todo-link {
+  background-color: #282c34;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  color: rgb(85, 163, 226);
+}
+
